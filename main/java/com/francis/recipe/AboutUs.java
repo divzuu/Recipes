@@ -1,5 +1,4 @@
 package com.francis.recipe;
 
-public class LogIn {
-
+public class AboutUs {
 }

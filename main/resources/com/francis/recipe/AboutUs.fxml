@@ -24,7 +24,7 @@
       </Pane>
       <Pane layoutX="84.0" layoutY="146.0" prefHeight="340.0" prefWidth="766.0" style="-fx-background-radius: 15; -fx-background-color: #4D7111;">
          <children>
-            <Text fill="#f4fffc" layoutX="15.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt; Back">
+            <Text fill="#f4fffc" layoutX="321.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt; Back">
                <font>
                   <Font name="Arial Bold" size="19.0" />
                </font>
