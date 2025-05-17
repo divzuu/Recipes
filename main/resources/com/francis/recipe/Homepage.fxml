@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="930.0" style="-fx-background-color: #C3E956;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#f4fffc" layoutX="32.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terra ">
+         <font>
+            <Font name="Arial Black" size="47.0" />
+         </font>
+      </Text>
+      <Text fill="#f4fffc" layoutX="167.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flavors">
+         <font>
+            <Font name="Arial Black" size="42.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="334.0" fitWidth="603.0" layoutX="29.0" layoutY="118.0" opacity="0.66" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/2.0.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="AboutUs1" layoutX="385.0" layoutY="47.0" prefHeight="38.0" prefWidth="126.0" style="-fx-background-radius: 30; -fx-background-color: #4D7111;">
+         <children>
+            <Text fx:id="AboutUs" fill="#f4fffc" layoutX="16.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
+               <font>
+                  <Font name="Arial Bold" size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="Recipes1" layoutX="530.0" layoutY="47.0" prefHeight="38.0" prefWidth="119.0" style="-fx-background-radius: 30; -fx-background-color: #4D7111;">
+         <children>
+            <Text fx:id="Recipes" fill="#f4fffc" layoutX="19.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recipes">
+               <font>
+                  <Font name="Arial Bold" size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="SignUp1" layoutX="659.0" layoutY="47.0" prefHeight="38.0" prefWidth="126.0" style="-fx-background-radius: 30; -fx-background-color: #4D7111;">
+         <children>
+            <Text fx:id="SignUp" fill="#f4fffc" layoutX="24.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-up">
+               <font>
+                  <Font name="Arial Bold" size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="GetStarted1" layoutX="645.0" layoutY="248.0" prefHeight="74.0" prefWidth="161.0" style="-fx-background-radius: 30; -fx-background-color: #1F4B2C;">
+         <children>
+            <Text fx:id="GetStarted" fill="#f4fffc" layoutX="24.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started">
+               <font>
+                  <Font name="Arial Bold" size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fitHeight="59.0" fitWidth="51.0" layoutX="865.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/xest__1_-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
