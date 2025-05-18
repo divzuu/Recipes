@@ -5,7 +5,6 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -26,18 +25,6 @@
             <Image url="@IMAGES/2.0.jpg" />
          </image>
       </ImageView>
-      <Pane fx:id="GetStarted1" layoutX="645.0" layoutY="248.0" prefHeight="74.0" prefWidth="161.0" style="-fx-background-radius: 30; -fx-background-color: #1F4B2C;">
-         <children>
-            <Text fx:id="GetStarted" fill="#f4fffc" layoutX="24.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started">
-               <font>
-                  <Font name="Arial Bold" size="21.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Text>
-         </children>
-      </Pane>
       <ImageView fitHeight="59.0" fitWidth="51.0" layoutX="854.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@IMAGES/xest__1_-removebg-preview.png" />
@@ -50,11 +37,15 @@
          <font>
             <Font name="Arial Bold" size="18.0" />
          </font></Button>
-      <Button layoutX="553.0" layoutY="44.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="100.0" style="-fx-background-color: #4D7111; -fx-background-radius: 15;" text="Button" textFill="#f4fffc">
+      <Button layoutX="553.0" layoutY="44.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="100.0" style="-fx-background-color: #4D7111; -fx-background-radius: 15;" text="Recipe" textFill="#f4fffc">
          <font>
             <Font name="Arial Bold" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="678.0" layoutY="44.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #4D7111; -fx-background-radius: 15;" text="Sign-up" />
+      <Button layoutX="677.0" layoutY="44.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="114.0" style="-fx-background-color: #4D7111; -fx-background-radius: 15;" text="Sign-up" textFill="#f4fffc">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
