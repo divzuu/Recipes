@@ -1,8 +1,4 @@
 package com.francis.recipe;
 
-
-
-public class AboutUs {
-
-
+public class Register {
 }

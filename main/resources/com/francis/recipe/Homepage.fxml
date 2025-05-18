@@ -21,7 +21,7 @@
       </Text>
       <ImageView fitHeight="334.0" fitWidth="603.0" layoutX="29.0" layoutY="118.0" opacity="0.66" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../../Downloads/2.0.jpg" />
+            <Image url="@IMAGES/2.0.jpg" />
          </image>
       </ImageView>
       <Pane fx:id="AboutUs1" layoutX="385.0" layoutY="47.0" prefHeight="38.0" prefWidth="126.0" style="-fx-background-radius: 30; -fx-background-color: #4D7111;">
@@ -60,9 +60,9 @@
             </Text>
          </children>
       </Pane>
-      <ImageView fitHeight="59.0" fitWidth="51.0" layoutX="865.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="59.0" fitWidth="51.0" layoutX="854.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../../Downloads/xest__1_-removebg-preview.png" />
+            <Image url="@IMAGES/xest__1_-removebg-preview.png" />
          </image>
       </ImageView>
    </children>
