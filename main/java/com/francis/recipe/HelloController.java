@@ -12,8 +12,4 @@ public class HelloController {
         welcomeText.setText("");
     }
 
-    @FXML
-    private void handleAboutUs() {
-        AboutUs.display();
-    }
 }
