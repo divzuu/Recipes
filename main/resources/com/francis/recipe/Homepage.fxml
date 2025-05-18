@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="930.0" style="-fx-background-color: #C3E956;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller = "com.francis.recipe.AboutUs">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="930.0" style="-fx-background-color: #C3E956;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.francis.recipe.AboutUs">
    <children>
       <Text fill="#f4fffc" layoutX="32.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terra ">
          <font>
@@ -26,30 +26,6 @@
             <Image url="@IMAGES/2.0.jpg" />
          </image>
       </ImageView>
-      <Pane fx:id="Recipes1" layoutX="530.0" layoutY="47.0" prefHeight="38.0" prefWidth="119.0" style="-fx-background-radius: 30; -fx-background-color: #4D7111;">
-         <children>
-            <Text fx:id="Recipes" fill="#f4fffc" layoutX="19.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recipes">
-               <font>
-                  <Font name="Arial Bold" size="21.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Text>
-         </children>
-      </Pane>
-      <Pane fx:id="SignUp1" layoutX="659.0" layoutY="47.0" prefHeight="38.0" prefWidth="126.0" style="-fx-background-radius: 30; -fx-background-color: #4D7111;">
-         <children>
-            <Text fx:id="SignUp" fill="#f4fffc" layoutX="24.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-up">
-               <font>
-                  <Font name="Arial Bold" size="21.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Text>
-         </children>
-      </Pane>
       <Pane fx:id="GetStarted1" layoutX="645.0" layoutY="248.0" prefHeight="74.0" prefWidth="161.0" style="-fx-background-radius: 30; -fx-background-color: #1F4B2C;">
          <children>
             <Text fx:id="GetStarted" fill="#f4fffc" layoutX="24.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started">
@@ -70,6 +46,15 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
-      <Button fx:id="About_Us" layoutX="432.0" layoutY="49.0" mnemonicParsing="false" onAction="#AboutUz" text="About Us" />
+      <Button fx:id="About_Us" layoutX="416.0" layoutY="44.0" mnemonicParsing="false" onAction="#AboutUz" prefHeight="36.0" prefWidth="113.0" style="-fx-background-color: #4D7111; -fx-background-radius: 15;" text="About Us" textFill="#f4fffc">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="553.0" layoutY="44.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="100.0" style="-fx-background-color: #4D7111; -fx-background-radius: 15;" text="Button" textFill="#f4fffc">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="678.0" layoutY="44.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #4D7111; -fx-background-radius: 15;" text="Sign-up" />
    </children>
 </AnchorPane>
