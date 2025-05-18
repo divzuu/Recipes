@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -30,6 +31,9 @@
                <font>
                   <Font name="Arial Bold" size="21.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Text>
          </children>
       </Pane>
@@ -39,6 +43,9 @@
                <font>
                   <Font name="Arial Bold" size="21.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Text>
          </children>
       </Pane>
@@ -48,6 +55,9 @@
                <font>
                   <Font name="Arial Bold" size="21.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Text>
          </children>
       </Pane>
@@ -57,6 +67,9 @@
                <font>
                   <Font name="Arial Bold" size="21.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Text>
          </children>
       </Pane>
@@ -64,6 +77,9 @@
          <image>
             <Image url="@IMAGES/xest__1_-removebg-preview.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
    </children>
 </AnchorPane>
