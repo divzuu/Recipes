@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="520.0" prefWidth="930.0" style="-fx-background-color: #C3E956;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.francis.recipe.AboutUs">
+<AnchorPane prefHeight="520.0" prefWidth="930.0" style="-fx-background-color: #C3E956;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.francis.recipe.HelloController">
    <children>
       <Text fill="#f4fffc" layoutX="334.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
          <font>
