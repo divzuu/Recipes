@@ -42,20 +42,11 @@ public class HelloController {
     }
 
     @FXML
-    void logens() {
-        try {
-            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/com/francis/recipe/LogIn.fxml"));
-            Parent root = (Parent) loader.load();
-            Stage stage = new Stage();
-            stage.setTitle("Register");
-            stage.setScene(new Scene(root));
-            stage.show();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    void recipe() {
+        showAlert();
     }
 
-    public void recipes() {
+    private void showAlert () {
 
         Alert alert = new Alert(Alert.AlertType.WARNING);
         alert.setTitle("Login Required");
@@ -63,9 +54,22 @@ public class HelloController {
         alert.setContentText("You must log in first to access recipes.");
         alert.showAndWait();
 
-
+        }
+        @FXML
+       private void logens() {
+            try {
+                FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/com/francis/recipe/LogIn.fxml"));
+                Parent root = (Parent) loader.load();
+                Stage stage = new Stage();
+                stage.setTitle("Register");
+                stage.setScene(new Scene(root));
+                stage.show();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
-}
+
 
 
 
