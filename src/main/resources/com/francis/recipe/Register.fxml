@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="889.0" style="-fx-background-color: #C3E956;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.francis.recipe.Register">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" stroke="BLACK" strokeType="INSIDE" width="889.0">
+         <fill>
+            <LinearGradient endX="0.5833333694573604" endY="0.6136363934386858" startX="0.5833332601821783">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8488095998764038" green="0.9894737005233765" blue="0.809902548789978" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="0.8461416363716125" green="0.9052631855010986" blue="0.8281481266021729" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.45964911580085754" green="0.9473684430122375" blue="0.492163747549057" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Pane layoutX="43.0" layoutY="127.0" prefHeight="440.0" prefWidth="802.0" style="-fx-background-radius: 15; -fx-background-color: #4D7111;">
+         <children>
+            <Text fill="#f2f2f2" layoutX="36.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username/email:">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="usernameTextField" layoutX="36.0" layoutY="110.0" onAction="#Connection" prefHeight="25.0" prefWidth="323.0" promptText="Username" style="-fx-background-radius: 15;" />
+            <Text fill="#f2f2f2" layoutX="36.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="passwordTextField" layoutX="36.0" layoutY="182.0" prefHeight="25.0" prefWidth="323.0" promptText="Password" style="-fx-background-radius: 15;" />
+            <Text fill="#f2f2f2" layoutX="36.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password:">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="confirmPasswordTextField" layoutX="36.0" layoutY="257.0" prefHeight="25.0" prefWidth="323.0" promptText="ConfirmPassword" style="-fx-background-radius: 15;" />
+            <Text fill="#f2f2f2" layoutX="443.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already have an Acoount?">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#f2f2f2" layoutX="639.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log-in">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+            <Button fx:id="registerButton" layoutX="442.0" layoutY="354.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="252.0" style="-fx-background-radius: 15; -fx-background-color: #C5E063;" text="Log-In" />
+            <CheckBox fx:id="maleTextField" layoutX="468.0" layoutY="112.0" mnemonicParsing="false" text="Male" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </CheckBox>
+            <Text fill="#f2f2f2" layoutX="447.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <CheckBox fx:id="femaleTextField" layoutX="568.0" layoutY="112.0" mnemonicParsing="false" text="Female" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </CheckBox>
+            <Text fill="#f2f2f2" layoutX="439.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of birth:">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="monthTextField" accessibleRole="TEXT" layoutX="447.0" layoutY="195.0" prefHeight="25.0" prefWidth="71.0" promptText="Month" />
+            <TextField fx:id="dayTextField" layoutX="537.0" layoutY="195.0" prefHeight="25.0" prefWidth="71.0" promptText="Day" />
+            <TextField fx:id="yearTextField" layoutX="628.0" layoutY="195.0" prefHeight="25.0" prefWidth="71.0" promptText="Year" />
+            <Text fill="#f2f2f2" layoutX="471.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MM">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#f2f2f2" layoutX="561.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DD">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#f2f2f2" layoutX="645.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YYYY">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#f2f2f2" layoutX="505.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose one only">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Text>
+            <Label fx:id="loginMessageLabel" alignment="TOP_CENTER" layoutX="249.0" layoutY="43.0" prefHeight="17.0" prefWidth="305.0" textFill="RED" />
+         </children>
+      </Pane>
+      <Text fill="#f5fffc" layoutX="211.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create an Account">
+         <font>
+            <Font name="Arial Black" size="47.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

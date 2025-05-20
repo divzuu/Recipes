@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="520.0" prefWidth="930.0" style="-fx-background-color: #C3E956;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.francis.recipe.HelloController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="520.0" stroke="BLACK" strokeType="INSIDE" width="930.0">
+         <fill>
+            <LinearGradient endX="0.5151515440507368" endY="0.6060606205102169" startX="0.5265151302922856" startY="0.04924239534320254">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.731902539730072" green="0.9578947424888611" blue="0.6102144122123718" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5456725358963013" green="0.9052631855010986" blue="0.35204678773880005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text fill="#f4fffc" layoutX="342.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
+         <font>
+            <Font name="Arial Black" size="50.0" />
+         </font>
+      </Text>
+      <Pane layoutX="84.0" layoutY="146.0" prefHeight="340.0" prefWidth="766.0" style="-fx-background-radius: 15; -fx-background-color: #4D7111;">
+         <children>
+            <Text fill="#f4fffc" layoutX="254.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to our kitchen!" wrappingWidth="226.39990234375">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text fill="#f4fffc" layoutX="51.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This recipe book is more than just a collection of meals—it's a celebration of flavor, family" wrappingWidth="686.3997802734375">
+               <font>
+                  <Font name="Arial" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#f4fffc" layoutX="47.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and the joy of cooking. Whether you're a seasoned chef or just starting your culinary journey" wrappingWidth="695.1998291015625">
+               <font>
+                  <Font name="Arial" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#f4fffc" layoutX="29.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="our goal is to inspire you with recipes that are easy to follow, full of heart, and made to be shared" wrappingWidth="731.999755859375">
+               <font>
+                  <Font name="Arial" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#f4fffc" layoutX="43.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Every dish included has a story—passed down through generations, discovered on travels" wrappingWidth="703.199951171875">
+               <font>
+                  <Font name="Arial" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#f4fffc" layoutX="61.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" or born from everyday cravings. We believe that food brings people together, and we're " wrappingWidth="667.1998291015625">
+               <font>
+                  <Font name="Arial" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#f4fffc" layoutX="199.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="honored to share our favorite recipes with you." wrappingWidth="391.1998291015625">
+               <font>
+                  <Font name="Arial" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#f4fffc" layoutX="40.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="So grab your apron, gather your ingredients, and let’s make something delicious together." wrappingWidth="686.3997802734375">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
